@@ -73,9 +73,9 @@ TEMPLATE_DIRS = (
 # Database
 
 # Internationalization
-LANGUAGE_CODE = 'cs-cz'
+LANGUAGE_CODE = 'fi'
 LANGUAGES = (
-    'cs', gettext_noop('Czech'),
+    'fi', gettext_noop('Finnish'),
     'en', gettext_noop('English'),
 )
 
