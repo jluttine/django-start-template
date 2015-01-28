@@ -10,6 +10,7 @@ SECRET_KEY = '{{ secret_key }}'
 
 DEBUG = False
 TEMPLATE_DEBUG = False
+TEST_RUNNER = 'django.test.runner.DiscoverRunner'
 
 SITE_ID = 1
 
