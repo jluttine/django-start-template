@@ -1,4 +1,4 @@
-from project_name.settings.production import *
+from {{ project_name }}.settings.production import *
 
 TMP_PATH = os.path.abspath(os.path.join(PROJECT_ROOT, 'tmp'))
 
