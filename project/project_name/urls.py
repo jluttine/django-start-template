@@ -7,6 +7,10 @@ urlpatterns = patterns('',
     url(r'^admin/', include(admin.site.urls)),
 )
 
+urlpatterns = patterns('{{ project_name }}.views',
+    url(r'^$', 'home', name='home'),
+)
+
 # Development
 from django.conf import settings
 if settings.DEBUG:

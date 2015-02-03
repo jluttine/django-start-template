@@ -35,6 +35,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    '{{ project_name }}.apps.template_linear',
 
     # '{{ project_name}}.apps.accounts',
 )
