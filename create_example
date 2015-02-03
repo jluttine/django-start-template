@@ -1,0 +1,8 @@
+#!/bin/sh
+
+rm -r example_project
+django-admin startproject --template=project example_project
+cd example_project
+pip install -r requirements-dev.txt
+manage.py syncdb
+manage.py collectstatic
