@@ -1,0 +1,20 @@
+Project template for Django
+===========================
+
+Start a Django project quickly by using this template.
+
+django-admin startproject --template=/path/to/this/folder/project your_project_name
+
+cd your_project_name
+
+virtualenv --python /usr/bin/python2 ENV
+
+source ENV/bin/activate
+
+pip install -r requirements-dev.txt
+
+manage.py syncdb
+
+manage.py collectstatic
+
+manage.py runserver
